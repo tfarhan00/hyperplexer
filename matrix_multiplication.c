@@ -153,6 +153,6 @@ static struct PyModuleDef matrixmodule = {
 };
 
 // Module initialization function
-PyMODINIT_FUNC PyInit_matrix_module(void) {
+PyMODINIT_FUNC PyInit_hyperplexer(void) {
     return PyModule_Create(&matrixmodule);
 }
